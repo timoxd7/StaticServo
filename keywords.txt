@@ -1,0 +1,10 @@
+StaticServo	KEYWORD1
+
+begin	KEYWORD2
+home	KEYWORD2
+moveTo	KEYWORD2
+move	KEYWORD2
+getCurrent	KEYWORD2
+getCurrentEuler	KEYWORD2
+getMin	KEYWORD2
+getMax	KEYWORD2
