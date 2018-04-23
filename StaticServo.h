@@ -11,6 +11,9 @@ class StaticServo {
       
       if (Max < SERVO_MIN) Max = SERVO_MIN;
       else if (Max > SERVO_MAX) Max = SERVO_MAX;
+
+      if (Home < 0) Home = 0;
+      else if (Home > 1) Home = 1;
       
       _servo.min = Min;
       _servo.toMax = Max - Min;
